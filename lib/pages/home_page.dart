@@ -85,13 +85,13 @@ class HomePage extends StatefulWidget{
                 final item = store.state.value[index];
                 return Column(
                   children: [
-                    /*ClipRRect(
+                    ClipRRect(
                       borderRadius: BorderRadius.circular(16),
                       child: Image.network(
                         item.images as String,
                         fit: BoxFit.cover,
                       ),
-                    ),*/
+                    ),
                   ListTile(
                     contentPadding: EdgeInsets.zero,
                     title: Text(
@@ -108,7 +108,7 @@ class HomePage extends StatefulWidget{
                         Text(
                           item.ano_lancamento,
                           style: const TextStyle(
-                            color: Color.fromARGB(137, 0, 0, 0),
+                            color: Color.fromARGB(255, 0, 60, 255),
                             fontWeight: FontWeight.w600,
                             fontSize: 20,
                           ),
@@ -117,9 +117,9 @@ class HomePage extends StatefulWidget{
                           Text(
                             item.quantidade_avaliacoes,
                             style: const TextStyle(
-                              color: Colors.black54,
+                              color: Color.fromARGB(137, 0, 0, 0),
                               fontWeight: FontWeight.w400,
-                              fontSize: 18,
+                              fontSize: 19,
                             ),
                             overflow: TextOverflow.ellipsis,
                             maxLines: 2,

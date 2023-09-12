@@ -10,7 +10,7 @@ class JogoStore{
   final ValueNotifier<bool> isLoading = ValueNotifier<bool>(false);
 
   final ValueNotifier<List<JogoModel>> state = 
-  ValueNotifier<List<JogoModel>>([]);
+    ValueNotifier<List<JogoModel>>([]);
 
   final ValueNotifier<String> erro = ValueNotifier<String>('');
 

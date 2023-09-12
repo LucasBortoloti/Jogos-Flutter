@@ -26,7 +26,7 @@ class JogoRepository implements IJogoRepository{
     final body = jsonDecode(response.body);     
 
     body['data'].map((item){
-      final JogoModel jogo = JogoModel.fromMap(item, map: {});
+      final JogoModel jogo = JogoModel.fromMap(map: item);
       jogos.add(jogo);
     }).toList();
 
