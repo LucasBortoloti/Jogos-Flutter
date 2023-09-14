@@ -88,7 +88,7 @@ class HomePage extends StatefulWidget{
                     ClipRRect(
                       borderRadius: BorderRadius.circular(16),
                       child: Image.network(
-                        item.images as String,
+                        item.thumbnail,
                         fit: BoxFit.cover,
                       ),
                     ),
