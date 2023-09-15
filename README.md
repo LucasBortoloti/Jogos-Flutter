@@ -1,1 +1,1 @@
-Lista de jogos :D !!!
+Lista de jogos utilizando API :D !!!
