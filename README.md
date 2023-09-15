@@ -1,1 +1,1 @@
-Lista de jogos Completa :D !!!
+Lista de jogos :D !!!
